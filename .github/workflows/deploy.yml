@@ -18,5 +18,7 @@ jobs:
           npm install
           npm run build
           npm run deploy
+          echo "Artifact URL: $ARTIFACT_URL"
+          echo "Deployment Payload: $DEPLOYMENT_PAYLOAD"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
