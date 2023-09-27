@@ -5,6 +5,7 @@ body {
 
 img {
     float: right;
+    box-shadow: rgba(0, 0, 0, 0.80) 0px 5px 15px;
 }
 
 a {
