@@ -1,4 +1,2 @@
-# clock
-What time is it?
-
-Basic clock function with stolen animation in the background.
+# Profiler
+Lite information om "De Fem Musketörerna".
