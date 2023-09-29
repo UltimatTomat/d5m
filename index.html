@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>D5M</title>
+        <link rel="icon" href="assets/icon.png" type="image/icon type">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1>De Fem Musketörerna</h1>
+
+        <div class="link-content">
+            <div class="name-box">
+                <button class="name-links" onclick="timHTML()">Tim</button>
+                <img src="assets/image-1.png" alt="Image" width="80px" height="80px">
+            </div>
+
+            <div class="name-box">
+                <button class="name-links" onclick="simonHTML()">Simon</button>
+                <img src="assets/image-2.png" alt="Image" width="80px" height="80px">
+            </div>
+
+            <div class="name-box">
+                <button class="name-links" onclick="jamesHTML()">James</button>
+                <img src="assets/image-3.png" alt="Image" width="80px" height="80px">
+            </div>
+
+            <div class="name-box">
+                <button class="name-links" onclick="elsaHTML()">Elsa</button>
+                <img src="assets/image-4.png" alt="Image" width="80px" height="80px">
+            </div>
+
+            <div class="name-box">
+                <button class="name-links" onclick="emmyHTML()">Emmy</button>
+                <img src="assets/image-5.png" alt="Image" width="80px" height="80px">
+            </div>
+        </div>
+
+        <script>
+            function timHTML() {
+                window.location.href = "tim.html"
+                history.pushState({}, "", "/tim");
+            }
+
+            function simonHTML() {
+                window.location.href = "simon.html"
+                history.pushState({}, "", "/simon");
+            }
+
+            function jamesHTML() {
+                window.location.href = "james.html"
+                history.pushState({}, "", "/james");
+            }
+
+            function elsaHTML() {
+                window.location.href = "elsa.html"
+                history.pushState({}, "", "/elsa");
+            }
+
+            function emmyHTML() {
+                window.location.href = "emmy.html"
+                history.pushState({}, "", "/emmy");
+            }
+        </script>
+
+    </body>
+</html>
